@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="shortcut icon" href="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\negraapi.ico" type="image/x-icon"/>
+<title>Personal Web</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #bd0000;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #ff99d3;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #a10000;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>W E L C O M E</h1>
+  <p>Ini adalah website pribadi untuk link kuliah dan presensi kuliah</p>
+</div>
+
+<div class="navbar">
+  <a href="https://transaksi.klikmbc.co.id/login.php" target="_blank" rel="noopener noreferrer" >MMBC</a>
+  <a href="https://www.klikbca.com/" target="_blank" rel="noopener noreferrer" >KlikBCA</a>
+  <a href="https://elok.ugm.ac.id/" class="right" target="_blank" rel="noopener noreferrer" >ELOK</a>
+  <a href="https://simaster.ugm.ac.id/" class="right" target="_blank" rel="noopener noreferrer" >Simaster</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Photo of me:</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\Darwin.png" alt="Foto Darwin" width="240" height="343" class="center"> </div>
+    <p>Hey Darwin!</p>
+    <h3>Personality :</h3>
+    <div class="fakeimg" style="height:60px;"> 19/439823/TK/48553 </div><br>
+    <div class="fakeimg" style="height:60px;"> Tengku Rafi Nugroho Maghribi </div><br>
+    <div class="fakeimg" style="height:60px;"> rafi.nugroho@mail.ugm.ac.id</div>
+  </div>
+  <div class="main">
+    <h2>A - Arsitektur Perangkat Lunak</h2>
+    <h5>Senin 07:15 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\ha.png" alt="Foto APL" width="100%" height="250" class="center"> </div>
+    <p>Bu Indriana Hidayah</p>
+	<a href="https://teams.microsoft.com/l/meetup-join/19%3aaf823f6c70f045d890901c11f0f73da4%40thread.tacv2/1612414273953?context=%7b%22Tid%22%3a%22af2c0734-cb42-464f-b6bf-2a241b6ada56%22%2c%22Oid%22%3a%226d1a3453-f900-4925-a76d-ec34173042e8%22%7d" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/FtWtXSKfH9hBFzR2A" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+    <hr style="border-top:10px solid #3d3838">
+	<br>
+	
+    <h2>A - Teknik Digital</h2>
+    <h5>Senin 10:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\haha.png" alt="Foto Tekdig" width="100%" height="250" class="center"> </div>
+    <p>Pak Addyn</p>
+	<a href="https://teams.microsoft.com/l/meetup-join/19%3ad4e36ff75e3b4a1b9e4459cff24e2692%40thread.tacv2/1612688999142?context=%7b%22Tid%22%3a%22af2c0734-cb42-464f-b6bf-2a241b6ada56%22%2c%22Oid%22%3a%22baaf848a-499f-4aff-a489-ce0cc5517ff1%22%7d" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/qf8xiSDDghnnrenY8" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+	
+	<h2>A - Teknik Visualisasi Grafis</h2>
+    <h5>Senin 13:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\hahaha.jpg" alt="Foto Visgraf" width="100%" height="250" class="center"> </div>
+    <p>Pak Paulus Insap </p>
+	<a href="https://meet.google.com/kqo-mvbi-jbv" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/7ukUae2CY2xQP7AL9" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+	
+	<h2>A - Medan Elektromagnetis</h2>
+    <h5>Rabu 07:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\he.jpg" alt="Foto ME" width="100%" height="250" class="center"> </div>
+    <p>Pak Iswandi </p>
+	<a href="https://teams.microsoft.com/l/meetup-join/19%3a29913bc2c5644ea0af3fa7fa725b87af%40thread.tacv2/1599658180658?context=%7b%22Tid%22%3a%22af2c0734-cb42-464f-b6bf-2a241b6ada56%22%2c%22Oid%22%3a%22374f9416-a91e-4c13-aa10-d8bf52cb1d6d%22%7d" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/yD3EhHC8tLfk8ZHT8" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+	
+	<h2>B - Interaksi Manusia dan Komputer</h2>
+    <h5>Rabu 10:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\hehe.jpg" alt="Foto IMK" width="100%" height="250" class="center"> </div>
+    <p>Pak Paulus Insap </p>
+	<a href="https://meet.google.com/kqo-mvbi-jbv" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/CYnwhHdBvvBRthai9" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+	
+	<h2>B - Kecerdasan Buatan</h2>
+    <h5>Rabu 13:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\hehehe.jpg" alt="Foto Cerbu" width="100%" height="250" class="center"> </div>
+    <p>Pak Azkario </p>
+	<a href="https://teams.microsoft.com/l/channel/19%3ad5697830992146a0a7efc6d8ba363e98%40thread.tacv2/General?groupId=be49f292-90cd-4350-9a16-0cd3b3e8cfcc&tenantId=af2c0734-cb42-464f-b6bf-2a241b6ada56" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/rkEXMAbwvd8sD1iq6" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+	
+	<h2>A - Aljabar Linear</h2>
+    <h5>Kamis 10:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\hi.png" alt="Foto Alin" width="100%" height="250" class="center"> </div>
+    <p>Pak Imam & Pak Ali </p>
+	<a href="https://teams.microsoft.com/l/channel/19%3ade8332086b6a4083af96d06eefd7505b%40thread.tacv2/General?groupId=50510eb8-a023-44a1-894c-7ad772275da1&tenantId=af2c0734-cb42-464f-b6bf-2a241b6ada56" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/R5fcqbH2NaN7T9dw6" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+	
+	<h2>B - Rekayasa Perangkat Lunak</h2>
+    <h5>Rabu 13:00 WIB</h5>
+    <div> <img src="D:\Rafi\Kuliah\Semester 4\Codings\Personal Homepage\Assets\hihi.jpg" alt="Foto RPL" width="100%" height="250" class="center"> </div>
+    <p>Bu Erna </p>
+	<a href="https://teams.microsoft.com/l/meetup-join/19%3ab3d4ad5629c14448aa18bead2db9c869%40thread.tacv2/1612760995500?context=%7b%22Tid%22%3a%22af2c0734-cb42-464f-b6bf-2a241b6ada56%22%2c%22Oid%22%3a%22c89f6f5f-d0e1-4c81-ac9b-f02c20ff981b%22%7d" target="_blank" rel="noopener noreferrer" >Link Kuliah</a>
+	<a href="https://forms.gle/QQSxVLrsj8RKoWy38" target="_blank" rel="noopener noreferrer" >Link Presensi</a>
+	<hr style="border-top:10px solid #3d3838">
+	<br>
+  </div>
+</div>
+
+<div class="footer">
+  <h2 style="color: #ffffff" >This is the end of the page</h2>
+  <h5 style="color: #ffffff" >25 Februari 2021</h5>
+</div>
+
+</body>
+</html>
